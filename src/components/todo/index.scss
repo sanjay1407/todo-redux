@@ -1,0 +1,54 @@
+.todo-container {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.not-completed {
+    background-color: #efefef;
+}
+
+.completed {
+    background-color: #9d9;
+    text-decoration: line-through;
+}
+.editable{
+    border:none;
+    width: 50%;
+    border-bottom: 1px solid #333;
+    outline: none;
+}
+
+.todo-container * {
+    margin-right: 15px;
+}
+
+.todo-container a {
+    color: #666;
+    transition: all 0.3s ease;
+    margin: 0px;
+}
+
+.todo-container a:hover {
+    color: #000;
+}
+
+.delete-icon{
+    position: absolute;
+    right: 52px;
+    top: 6px;
+}
+
+.edit-icon{
+    position: absolute;
+    right: 0px;
+    top: 9px;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+input:disabled, textarea:disabled{
+    color: #000;
+}
