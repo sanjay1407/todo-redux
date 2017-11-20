@@ -5,9 +5,7 @@ import TodoList from './todo-list';
 
 export default () => (
     <div className='container'>
-        <div className="title">
-            <h1>TODO App !!!</h1>
-        </div>
+        <h1 className='title'>Todo Application</h1>
         <TodoForm />
         <TodoList />
     </div>
